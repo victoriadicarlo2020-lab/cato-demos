@@ -44,8 +44,9 @@ h1,h2,h3,p{margin:0}
 .topo.is-rolado .nav{background:var(--verde);box-shadow:0 8px 30px rgba(10,40,32,.25);height:68px}
 .nav-in{height:100%;display:flex;align-items:center;justify-content:space-between}
 .logo{display:inline-flex;align-items:center;gap:12px;text-decoration:none;color:#fff}
-.logo-estrela{width:30px;height:30px;color:#fff;transition:transform .8s var(--ease)}
-.logo:hover .logo-estrela{transform:rotate(90deg)}
+.logo-marca{width:46px;height:46px;border-radius:50%;box-shadow:0 0 0 2px rgba(255,255,255,.85),0 6px 16px rgba(0,0,0,.2);transition:transform .5s var(--ease),width .45s var(--ease),height .45s var(--ease)}
+.logo:hover .logo-marca{transform:scale(1.06)}
+.topo.is-rolado .logo-marca{width:40px;height:40px}
 .logo-txt{display:flex;flex-direction:column;line-height:1}
 .logo-nome{font-size:24px;font-weight:500;letter-spacing:.32em}
 .logo-sub{font-size:10px;font-weight:400;letter-spacing:.22em;text-transform:uppercase;opacity:.8;margin-top:5px}
@@ -231,7 +232,7 @@ h1,h2,h3,p{margin:0}
 .info a{text-decoration:none;border-bottom:1px solid rgba(255,255,255,.25);transition:color .2s,border-color .2s}
 .info a:hover{color:#a9dcc9;border-color:#a9dcc9}
 .rodape-base{margin-top:70px;padding-top:34px;border-top:1px solid rgba(255,255,255,.12);display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px 30px;font-size:13.5px}
-.logo-rodape .logo-estrela{color:#a9dcc9}
+.logo-rodape .logo-marca{box-shadow:0 0 0 2px rgba(169,220,201,.5)}
 .rodape-cato a{color:#FCA001;text-decoration:none}
 .rodape-cato a:hover{text-decoration:underline}
 @media (max-width:760px){
